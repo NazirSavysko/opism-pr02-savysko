@@ -1,0 +1,26 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0* Host freebsd.org:80 was resolved.
+* IPv6: 2610:1c1:1:606c::50:15
+* IPv4: 96.47.72.84
+*   Trying [2610:1c1:1:606c::50:15]:80...
+* Immediate connect fail for 2610:1c1:1:606c::50:15: Не вдалося отримати доступ до мережі
+*   Trying 96.47.72.84:80...
+* Established connection to freebsd.org (96.47.72.84 port 80) from 192.168.10.153 port 59188 
+* using HTTP/1.x
+> GET / HTTP/1.1
+> Host: freebsd.org
+> User-Agent: curl/8.18.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Content-Type: text/html
+< Content-Length: 162
+< Connection: keep-alive
+< Location: https://freebsd.org/
+< 
+{ [162 bytes data]
+100    162 100    162   0      0    449      0                              0100    162 100    162   0      0    449      0                              0100    162 100    162   0      0    449      0                              0
+* Connection #0 to host freebsd.org:80 left intact
